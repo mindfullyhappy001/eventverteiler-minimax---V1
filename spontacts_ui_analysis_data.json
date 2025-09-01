@@ -1,0 +1,109 @@
+{
+  "analysis_metadata": {
+    "analysis_date": "2025-09-02T03:52:41Z",
+    "analysis_type": "Mobile vs Desktop UI Comparison",
+    "platform": "Spontacts",
+    "method": "Desktop Analysis with Mobile Inference"
+  },
+  "desktop_ui_specifications": {
+    "viewport_tested": "Standard Desktop Browser",
+    "total_interactive_elements": 211,
+    "primary_navigation": {
+      "header_elements": 4,
+      "main_ctas": 3,
+      "social_logins": 3,
+      "category_links": 114,
+      "city_links": 25,
+      "partner_links": 24
+    },
+    "layout_structure": "Two-column responsive design",
+    "primary_colors": ["Blue CTAs", "White background", "Black text"],
+    "ui_framework": "Custom responsive framework with Bootstrap-like grid"
+  },
+  "mobile_ui_inferences": {
+    "responsive_indicators": [
+      "Service Worker implementation for offline functionality",
+      "Native mobile apps available (iOS/Android)", 
+      "Mobile-optimized OAuth flows",
+      "Touch-friendly button sizing implied"
+    ],
+    "expected_differences": {
+      "layout": "Single-column instead of two-column",
+      "navigation": "Hamburger menu as primary navigation",
+      "images": "Vertical gallery instead of grid",
+      "touch_targets": "Minimum 44px touch targets"
+    }
+  },
+  "performance_analysis": {
+    "desktop_load_technologies": [
+      "Google reCAPTCHA",
+      "Google Ad Manager", 
+      "Service Worker",
+      "Analytics System",
+      "OAuth Providers"
+    ],
+    "console_logs": [
+      {"type": "log", "message": "AD_LISTENER: Start", "severity": "info"}
+    ],
+    "no_critical_errors": true
+  },
+  "security_analysis": {
+    "desktop_measures": {
+      "https_encryption": true,
+      "oauth_integration": true,
+      "password_masking": true,
+      "visible_captcha": false,
+      "two_factor_auth": false
+    },
+    "mobile_expected": {
+      "device_fingerprinting": "likely",
+      "app_store_validation": "available",
+      "touch_pattern_analysis": "possible"
+    }
+  },
+  "oauth_configurations": {
+    "facebook": {
+      "endpoint": "https://www.facebook.com/dialog/oauth",
+      "client_id": "1397583294374995",
+      "scope": "public_profile,email"
+    },
+    "google": {
+      "endpoint": "https://accounts.google.com/o/oauth2/v2/auth", 
+      "client_id": "103250590742-jgkpmhjq410f9gk9vp1k21gd8lunmskq.apps.googleusercontent.com",
+      "scope": "profile email"
+    },
+    "apple": {
+      "endpoint": "https://appleid.apple.com/auth/authorize",
+      "client_id": "com.synexit.ge-service", 
+      "scope": "name email"
+    }
+  },
+  "multi_domain_architecture": {
+    "marketing": "spontacts.com",
+    "application": "community.spontacts.com", 
+    "analytics": "metrics.spontacts.com",
+    "partner_network": "gemeinsamerleben.com"
+  },
+  "app_specifications": {
+    "android": {
+      "package_id": "com.conceptworks.spontacts",
+      "store_url": "https://play.google.com/store/apps/details?id=com.conceptworks.spontacts"
+    },
+    "ios": {
+      "app_id": "376562946",
+      "store_url": "https://apps.apple.com/de/app/spontacts-aktivit%C3%A4ten-events/id376562946"
+    }
+  },
+  "responsive_breakpoints_inferred": {
+    "desktop": "> 1024px",
+    "tablet": "768px - 1024px", 
+    "mobile": "< 768px"
+  },
+  "ui_elements_comparison": {
+    "desktop_primary_cta": "Kostenlos mitmachen (Blue rounded button)",
+    "desktop_secondary_cta": "Login (Text link)",
+    "mobile_expected_cta": "Bottom navigation with primary actions",
+    "form_fields": "Email + Password with visibility toggle",
+    "social_login_prominence": "Equal weight with email/password login"
+  }
+}
