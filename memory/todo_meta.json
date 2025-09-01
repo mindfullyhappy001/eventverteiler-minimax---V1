@@ -1,0 +1,34 @@
+{
+  "todos": {
+    "Coordinator": {
+      "1": {
+        "id": "1",
+        "content": "API-Key & Login-Konfiguration im Frontend implementieren",
+        "details": "- Sichere Eingabemasken für API-Keys je Plattform (Meetup, Eventbrite, Facebook, Spontacts)\n- Login-Daten-Verwaltung für Playwright-Bots\n- Verschlüsselte Speicherung in Supabase\n- Test-Connection-Buttons für API-Validierung\n- Session-Management-Interface für Playwright",
+        "status": "pending",
+        "priority": "high"
+      },
+      "2": {
+        "id": "2",
+        "content": "Vollständige API-Dokumentations-Recherche",
+        "details": "- Meetup API v3 aktuelle Dokumentation und Endpunkte\n- Eventbrite API v3 neueste Spezifikationen\n- Facebook Graph API Events-Endpoints\n- Spontacts API (falls vorhanden) oder Playwright-Implementierung\n- Aktueller OAuth-Flow und Authentifizierungsverfahren\n- Rate Limits und Best Practices",
+        "status": "completed",
+        "priority": "high"
+      },
+      "3": {
+        "id": "3",
+        "content": "Echte Plattform-Integration mit korrekten APIs implementieren",
+        "details": "- Meetup: Korrekte OAuth 2.0 + Event Creation API\n- Eventbrite: API Key Authentication + Event Management\n- Facebook: Graph API + Page Events Integration\n- Spontacts: UI-Automation mit aktuellen Selektoren\n- Fehlerbehandlung basierend auf echten API-Responses\n- Verifikation mit echten Plattform-Rückmeldungen",
+        "status": "pending",
+        "priority": "high"
+      },
+      "4": {
+        "id": "4",
+        "content": "Playwright-Bots mit aktuellen Website-Strukturen",
+        "details": "- Meetup.com aktuelle UI-Selektoren analysieren\n- Eventbrite.com Event-Creation-Flow testen\n- Facebook Business Manager Event-Erstellung\n- Spontacts.de aktuelles Interface untersuchen\n- Robuste, selbstheilende Selektoren implementieren",
+        "status": "pending",
+        "priority": "high"
+      }
+    }
+  }
+}

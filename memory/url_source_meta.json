@@ -1,0 +1,223 @@
+{
+  "_source_id": 30,
+  "sources": {
+    "Eventbrite API v3 Analysis": {
+      "https://www.eventbrite.com/platform/docs/authentication": {
+        "id": 1,
+        "publisher": "Eventbrite Platform",
+        "url": "https://www.eventbrite.com/platform/docs/authentication",
+        "title": "Intro to Authentication - Documentation",
+        "info": "OAuth 2.0 Authentifizierungsmethoden, private Tokens, Server-Side vs Client-Side Authorization, Sicherheits-Best-Practices"
+      },
+      "https://www.eventbrite.com/platform/docs/create-events": {
+        "id": 2,
+        "publisher": "Eventbrite Platform",
+        "url": "https://www.eventbrite.com/platform/docs/create-events",
+        "title": "Creating an Event - Documentation",
+        "info": "Event Creation API-Endpunkte, POST-Methoden, erforderliche Parameter für Event-Erstellung, -Aktualisierung und -Veröffentlichung"
+      },
+      "https://www.eventbrite.com/platform/docs/image-upload": {
+        "id": 3,
+        "publisher": "Eventbrite Platform",
+        "url": "https://www.eventbrite.com/platform/docs/image-upload",
+        "title": "Including an Image with Your Event Listing",
+        "info": "3-Schritt Image-Upload-Prozess, HTTP-Multipart-Upload, S3-Upload-Anweisungen und Crop-Mask-Anforderungen"
+      },
+      "https://www.eventbrite.com/platform/docs/webhooks": {
+        "id": 4,
+        "publisher": "Eventbrite Platform",
+        "url": "https://www.eventbrite.com/platform/docs/webhooks",
+        "title": "Using Webhooks - Documentation",
+        "info": "Webhook-Integration, 6 unterstützte Objekttypen, Event-Types, JSON-Payload-Strukturen, Sicherheitsaspekte und Retry-Mechanismen"
+      },
+      "https://www.eventbrite.com/platform/docs/ticket-classes": {
+        "id": 5,
+        "publisher": "Eventbrite Platform",
+        "url": "https://www.eventbrite.com/platform/docs/ticket-classes",
+        "title": "Ticket Classes and Ticket Groups - Documentation",
+        "info": "Ticketing-System mit 3 Ticket-Typen (kostenlos, bezahlt, Spende), Ticket Groups, Inventory Tiers und umfassende API-Parameter"
+      },
+      "https://www.eventbrite.com/platform/docs/app-oauth-flow": {
+        "id": 6,
+        "publisher": "Eventbrite Platform",
+        "url": "https://www.eventbrite.com/platform/docs/app-oauth-flow",
+        "title": "App OAuth Flow - Documentation",
+        "info": "Detaillierte OAuth-Flows für client-seitige und server-seitige Anwendungen, App Key und Client Secret Verwendung"
+      },
+      "https://www.eventbrite.com/platform/docs/organizations": {
+        "id": 7,
+        "publisher": "Eventbrite Platform",
+        "url": "https://www.eventbrite.com/platform/docs/organizations",
+        "title": "Understanding Organizations - Documentation",
+        "info": "Organisationsarchitektur seit 2018, API-Migration von user-basierten zu organization-basierten Endpunkten, Berechtigungsmanagement"
+      },
+      "https://www.eventbrite.com/platform/docs/api-explorer": {
+        "id": 8,
+        "publisher": "Eventbrite Platform",
+        "url": "https://www.eventbrite.com/platform/docs/api-explorer",
+        "title": "Exploring the API - Documentation",
+        "info": "API Explorer Tool für Endpunkt-Tests, Debugging-Features und praktische Beispiele für /users/me/ Endpunkte"
+      },
+      "https://www.eventbrite.com/platform/docs/rate-limits": {
+        "id": 9,
+        "publisher": "Eventbrite Platform",
+        "url": "https://www.eventbrite.com/platform/docs/rate-limits",
+        "title": "Rate Limits - Documentation",
+        "info": "Standard Rate Limits: 2,000 calls/hour, 48,000 calls/day, Error-Handling bei Überschreitung"
+      },
+      "https://www.eventbrite.com/platform/docs/changelog": {
+        "id": 10,
+        "publisher": "Eventbrite Platform",
+        "url": "https://www.eventbrite.com/platform/docs/changelog",
+        "title": "Changelog - Documentation",
+        "info": "Aktuelle API-Änderungen 2024/2025, neue Rate Limits seit Juni 2025"
+      }
+    },
+    "Meetup API v3 Vollständige Analyse": {
+      "https://www.meetup.com/api/guide/": {
+        "id": 11,
+        "publisher": "Meetup.com",
+        "url": "https://www.meetup.com/api/guide/",
+        "title": "API Doc Guide - Meetup API Migration 2025",
+        "info": "Offizielle Meetup API Migration Guide mit Details zur Februar 2025 GraphQL API Aktualisierung, vollständiger Schema-Introspektion, Rate Limits (500 Punkte/60 Sekunden), Authentifizierung über Bearer Token, und umfassenden API-Feldmapping zwischen alter und neuer Version."
+      },
+      "https://www.meetup.com/api/authentication/": {
+        "id": 12,
+        "publisher": "Meetup.com",
+        "url": "https://www.meetup.com/api/authentication/",
+        "title": "API Doc Authentication - OAuth 2.0 Flows",
+        "info": "Vollständige OAuth 2.0 Authentifizierungsverfahren für Meetup API: Server Flow (Authorization Code Grant), Refresh Token Flow, JWT Flow, und Implicit Flow. Umfasst alle Endpoint-URLs, Parameter, und Fehlerbehandlungs-Details."
+      },
+      "https://www.meetup.com/api/schema/": {
+        "id": 13,
+        "publisher": "Meetup.com",
+        "url": "https://www.meetup.com/api/schema/",
+        "title": "API Docs Schema - GraphQL Mutations",
+        "info": "Detaillierte GraphQL Schema-Dokumentation mit CRUD-Operationen für Events: createEvent, editEvent, deleteEvent. Enthält vollständige Parameter-Listen, Input-Typen wie CreateEventInput und EditEventInput mit allen erforderlichen und optionalen Feldern."
+      },
+      "https://www.meetup.com/api/general": {
+        "id": 14,
+        "publisher": "Meetup.com",
+        "url": "https://www.meetup.com/api/general",
+        "title": "API Doc Introduction - GraphQL Fundamentals",
+        "info": "GraphQL vs REST Vergleich, Vorteile der neuen API-Architektur, technische Spezifikationen, und Geschäftslösungen. Erläutert Single-Endpoint-Architektur und Datenoptimierung."
+      },
+      "https://www.meetup.com/api/support/": {
+        "id": 15,
+        "publisher": "Meetup.com",
+        "url": "https://www.meetup.com/api/support/",
+        "title": "API Doc Support - Hilferessourcen",
+        "info": "Support-Ressourcen für Meetup API: GraphQL Playground, Hilfezentrum-Artikel, Bug-Reporting-Prozess über Community Support Team."
+      },
+      "https://gist.github.com/sjwaight/ec28fc08da1f7d2ff3a4abdbfdeab5e0": {
+        "id": 16,
+        "publisher": "Simon Waight (GitHub Gist)",
+        "url": "https://gist.github.com/sjwaight/ec28fc08da1f7d2ff3a4abdbfdeab5e0",
+        "title": "Bash Script - GraphQL API curl Example",
+        "info": "Praktisches curl-Beispiel für Meetup GraphQL API Aufrufe mit Bearer Token Authentifizierung, JSON-Body-Formatierung, und Variablen-Handling. Zeigt komplette HTTP POST Implementierung."
+      },
+      "https://github.com/d4nshields/mcp-meetup": {
+        "id": 17,
+        "publisher": "Dan Shields (GitHub)",
+        "url": "https://github.com/d4nshields/mcp-meetup",
+        "title": "MCP Meetup Server - Claude Integration",
+        "info": "Produktionsreifer MCP Server für Meetup.com Integration mit Anthropic Claude LLM. Bietet Event Discovery, natürliche Sprachverarbeitung, OAuth2 Implementierung, und AI-gestützte Event-Empfehlungen."
+      }
+    },
+    "Facebook Graph API Event-Management Analysis": {
+      "https://developers.facebook.com/docs/graph-api/reference/event/": {
+        "id": 18,
+        "publisher": "Meta for Developers",
+        "url": "https://developers.facebook.com/docs/graph-api/reference/event/",
+        "title": "Event - Graph API Reference",
+        "info": "Detaillierte API-Referenz für Event-Management, Felder, Berechtigungen, Beschränkungen. Zugriff nur für Marketing Partner. Über 20 Event-Felder verfügbar."
+      },
+      "https://developers.facebook.com/products/official-events-api/": {
+        "id": 19,
+        "publisher": "Meta for Developers",
+        "url": "https://developers.facebook.com/products/official-events-api/",
+        "title": "Official Events API",
+        "info": "Offizielle Event API für Plattformen Dritter. Ermöglicht Event-Veröffentlichung in großem Umfang. Neue Partner-Aufnahme pausiert aufgrund COVID-19."
+      },
+      "https://developers.facebook.com/docs/permissions/": {
+        "id": 20,
+        "publisher": "Meta for Developers",
+        "url": "https://developers.facebook.com/docs/permissions/",
+        "title": "Permissions Reference",
+        "info": "Umfassende Berechtigungsdokumentation. Event-bezogene Permissions: pages_events, instagram_manage_events, instagram_manage_upcoming_events. App Review erforderlich."
+      },
+      "https://developers.facebook.com/docs/graph-api/changelog/": {
+        "id": 21,
+        "publisher": "Meta for Developers",
+        "url": "https://developers.facebook.com/docs/graph-api/changelog/",
+        "title": "Graph API Changelog",
+        "info": "Aktuelle API-Versionen und Änderungen. Aktuelle Version: v23.0 (Mai 2025). Marketing API Auto-Upgrade seit Mai 2024."
+      },
+      "https://developers.facebook.com/docs/graph-api/reference/event/photos/": {
+        "id": 22,
+        "publisher": "Meta for Developers",
+        "url": "https://developers.facebook.com/docs/graph-api/reference/event/photos/",
+        "title": "Event Photos API Reference",
+        "info": "Event-Photo-Upload via multipart/form-data oder URL. Publish_actions Berechtigung erforderlich. Message-Parameter für Foto-Beschreibungen."
+      },
+      "https://developers.facebook.com/docs/graph-api/reference/event/videos/": {
+        "id": 23,
+        "publisher": "Meta for Developers",
+        "url": "https://developers.facebook.com/docs/graph-api/reference/event/videos/",
+        "title": "Event Videos API Reference",
+        "info": "Event-Video-Upload API ist DEPRECATED seit April 2018. Publish_actions Berechtigung entfernt. Sharing-Produkte als Alternative empfohlen."
+      },
+      "https://developers.facebook.com/docs/marketing-api/conversions-api/using-the-api/": {
+        "id": 24,
+        "publisher": "Meta for Developers",
+        "url": "https://developers.facebook.com/docs/marketing-api/conversions-api/using-the-api/",
+        "title": "Conversions API Usage Guide",
+        "info": "Conversions API für Business-Events. Bis zu 1000 Events pro Batch. Unterstützt Web-, App- und Physical Store-Events. Business Manager Integration verfügbar."
+      },
+      "https://developers.facebook.com/blog/post/2025/06/16/app-review-improvements/": {
+        "id": 25,
+        "publisher": "Meta for Developers",
+        "url": "https://developers.facebook.com/blog/post/2025/06/16/app-review-improvements/",
+        "title": "App Review Improvements 2025",
+        "info": "Vereinfachter App Review-Prozess ab 2025. Einjährige Datenlizenzen. Sofortige Compliance-Erfüllung für Entwickler."
+      },
+      "https://reintech.io/blog/managing-facebook-events-graph-api": {
+        "id": 26,
+        "publisher": "Reintech",
+        "url": "https://reintech.io/blog/managing-facebook-events-graph-api",
+        "title": "Managing Facebook Events with Graph API",
+        "info": "Praktischer Guide zur Event-Erstellung über Graph API. POST zu /{page-id}/events Endpoint. Pages_manage_events Berechtigung erforderlich."
+      }
+    },
+    "Spontacts.de Integration-Analyse": {
+      "https://synexit.com": {
+        "id": 27,
+        "publisher": "SYNEXIT GmbH",
+        "url": "https://synexit.com",
+        "title": "SYNEXIT - White-Label Community Software",
+        "info": "Offizieller Technologie-Anbieter hinter Spontacts. Bietet White-Label Community-Software, Kontaktinformationen für API-Anfragen: support@synexit.com und sales@synexit.com"
+      },
+      "https://www.spontacts.com": {
+        "id": 28,
+        "publisher": "Spontacts",
+        "url": "https://www.spontacts.com",
+        "title": "Spontacts - Community für lokale Aktivitäten",
+        "info": "Hauptplattform für lokale Events und Aktivitäten. 114+ Kategorien identifiziert, 25 Städte, umfassende Analyse der UI-Struktur und Navigation durchgeführt"
+      },
+      "https://community.spontacts.com/login": {
+        "id": 29,
+        "publisher": "Spontacts",
+        "url": "https://community.spontacts.com/login",
+        "title": "Spontacts Login-Bereich",
+        "info": "Detaillierte Analyse des Login-Verfahrens: OAuth-Integration (Facebook ID: 1397583294374995, Google, Apple), Session-Management, Sicherheitsfeatures dokumentiert"
+      },
+      "https://community.spontacts.com/users/sign_up": {
+        "id": 30,
+        "publisher": "Spontacts",
+        "url": "https://community.spontacts.com/users/sign_up",
+        "title": "Spontacts Registrierung",
+        "info": "Registrierungsprozess analysiert: DSGVO-konforme Cookie-Zustimmung mit zwei Optionen, Social Login verfügbar, implizite AGB-Zustimmung, Event-Creation erfordert Registrierung"
+      }
+    }
+  }
+}
